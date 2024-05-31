@@ -1,6 +1,7 @@
 package com.example.demo.service;
 
 import com.example.demo.model.User;
+import com.example.demo.exception.UserNotFoundException;
 import org.springframework.stereotype.Service;
 
 import java.time.LocalDate;
@@ -32,7 +33,7 @@ public class UserServiceImpl implements UserService {
         for (User user : userList) {
             if (user.getId() == id) return user;
         }
-        return null;
+        throw new UserNotFoundException("Invalid user id: "+id);
     }
 
     @Override
