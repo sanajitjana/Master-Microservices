@@ -1,88 +1,68 @@
 package com.example.demo.service;
 
-import com.example.demo.model.User;
 import com.example.demo.exception.UserNotFoundException;
+import com.example.demo.model.Post;
+import com.example.demo.model.User;
+import com.example.demo.repository.UserRepository;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.time.LocalDate;
-import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
+import java.util.Optional;
 
 @Service
 public class UserServiceImpl implements UserService {
 
-    public static List<User> userList = new ArrayList<>();
-    public static int idCount = 0;
-
-    static {
-        userList.add(new User(++idCount, "Brajesh Lovanshi", LocalDate.now().minusYears(23)));
-        userList.add(new User(++idCount, "Sanajit Jana", LocalDate.now().minusYears(24)));
-        userList.add(new User(++idCount, "Brinda Prajapati", LocalDate.now().minusYears(30)));
-        userList.add(new User(++idCount, "Aditya Prakash Mishra", LocalDate.now().minusYears(25)));
-        userList.add(new User(++idCount, "Keshav Mishra", LocalDate.now().minusYears(26)));
-    }
+    @Autowired
+    private UserRepository userRepository;
 
     @Override
     public List<User> getAll() {
-        return userList;
+        return userRepository.findAll();
     }
 
     @Override
     public User findById(int id) {
-        for (User user : userList) {
-            if (user.getId() == id) return user;
-        }
-        throw new UserNotFoundException("Invalid user id: "+id);
+        Optional<User> user = userRepository.findById(id);
+        if (user.isEmpty()) throw new UserNotFoundException("Invalid user id: " + id);
+        return user.get();
     }
 
     @Override
     public User createUser(User user) {
-        user.setId(++idCount);
-        userList.add(user);
-        return user;
+        return userRepository.save(user);
     }
 
     @Override
     public User updateUser(int id, User user) {
         User userToUpdate = findById(id);
-        if (userToUpdate != null) {
-            userToUpdate.setName(user.getName());
-            userToUpdate.setDateOfBirth(user.getDateOfBirth());
-            return userToUpdate;
-        }
-        return null;
+        userToUpdate.setName(user.getName());
+        userToUpdate.setDateOfBirth(user.getDateOfBirth());
+        return userRepository.save(userToUpdate);
     }
 
     @Override
     public User partialUpdateUser(int id, User user) {
         User userToUpdate = findById(id);
-        if (userToUpdate != null) {
-            if (user.getName() != null) {
-                userToUpdate.setName(user.getName());
-            }
-            if (user.getDateOfBirth() != null) {
-                userToUpdate.setDateOfBirth(user.getDateOfBirth());
-            }
-            return userToUpdate;
+        if (user.getName() != null) {
+            userToUpdate.setName(user.getName());
         }
-        return null;
+        if (user.getDateOfBirth() != null) {
+            userToUpdate.setDateOfBirth(user.getDateOfBirth());
+        }
+        return userRepository.save(userToUpdate);
     }
 
     @Override
     public User deleteUser(int id) {
-        User userToBeDelete=findById(id);
+        User userToBeDelete = findById(id);
+        userRepository.delete(userToBeDelete);
+        return userToBeDelete;
+    }
 
-        if(userToBeDelete!=null){
-            Iterator<User> iterator=userList.iterator();
-            while (iterator.hasNext()){
-                User user=iterator.next();
-                if(user.getId()==id){
-                    iterator.remove();
-                    return user;
-                }
-            }
-        }
-        return null;
+    @Override
+    public List<Post> getAllPost(int userId) {
+        User user = findById(userId);
+        return user.getPosts();
     }
 }

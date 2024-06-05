@@ -1,8 +1,7 @@
 package com.example.demo.controller;
 
-import com.example.demo.model.Post;
 import com.example.demo.model.User;
-import com.example.demo.service.UserService;
+import com.example.demo.service.StaticUserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -14,25 +13,25 @@ import java.net.URI;
 import java.util.List;
 
 @RestController
-@RequestMapping("/users")
-public class UserController {
+@RequestMapping("/static")
+public class StaticUserController {
 
     @Autowired
-    private UserService userService;
+    private StaticUserService staticUserService;
 
-    @GetMapping
+    @GetMapping("/users")
     public List<User> users() {
-        return userService.getAll();
+        return staticUserService.getAll();
     }
 
-    @GetMapping("/{id}")
+    @GetMapping("/users/{id}")
     public User findById(@PathVariable int id) {
-        return userService.findById(id);
+        return staticUserService.findById(id);
     }
 
-    @PostMapping
+    @PostMapping("/users")
     public ResponseEntity<User> createUser(@RequestBody User user) {
-        User savedUser = userService.createUser(user);
+        User savedUser = staticUserService.createUser(user);
         URI location = ServletUriComponentsBuilder
                 .fromCurrentRequest()
                 .path("/{id}")
@@ -44,23 +43,19 @@ public class UserController {
         return new ResponseEntity<>(savedUser, header, HttpStatus.CREATED);
     }
 
-    @PutMapping("/{id}")
+    @PutMapping("/users/{id}")
     public User updateUser(@PathVariable int id, @RequestBody User user) {
-        return userService.updateUser(id, user);
+        return staticUserService.updateUser(id, user);
     }
 
-    @PatchMapping("/{id}")
+    @PatchMapping("/users/{id}")
     public User partialUpdateUser(@PathVariable int id, @RequestBody User user) {
-        return userService.partialUpdateUser(id, user);
+        return staticUserService.partialUpdateUser(id, user);
     }
 
-    @DeleteMapping("/{id}")
+    @DeleteMapping("/users/{id}")
     public User deleteUser(@PathVariable int id) {
-        return userService.deleteUser(id);
+        return staticUserService.deleteUser(id);
     }
 
-    @GetMapping("/{userId}/posts")
-    public List<Post> getAllPost(@PathVariable int userId) {
-        return userService.getAllPost(userId);
-    }
 }

@@ -8,10 +8,8 @@ import org.springframework.http.converter.json.MappingJacksonValue;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
-
 @RestController
-public class BeanFiledFilterController {
+public class BeanFieldFilterController {
 
     // get filters
     @GetMapping("/filters")
@@ -22,7 +20,6 @@ public class BeanFiledFilterController {
 
     // get all the details
     // excluding password by using MappingJacksonValue
-
     @GetMapping("/filter-password")
     public MappingJacksonValue returnFilterBeanExcludingPassword(){
         FilterBean filterBean= new FilterBean("Sanajit", "sanajit@gmail.com", "8372876775", "Kolkata", "Pass@123");
@@ -36,7 +33,5 @@ public class BeanFiledFilterController {
 
         return mappingJacksonValue;
     }
-
-    // get all the details except email and phone
 
 }
