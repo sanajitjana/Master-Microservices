@@ -3,6 +3,7 @@ package com.example.demo.service;
 import com.example.demo.exception.UserNotFoundException;
 import com.example.demo.model.Post;
 import com.example.demo.model.User;
+import com.example.demo.repository.PostRepository;
 import com.example.demo.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -15,6 +16,9 @@ public class UserServiceImpl implements UserService {
 
     @Autowired
     private UserRepository userRepository;
+
+    @Autowired
+    private PostRepository postRepository;
 
     @Override
     public List<User> getAll() {
@@ -64,5 +68,14 @@ public class UserServiceImpl implements UserService {
     public List<Post> getAllPost(int userId) {
         User user = findById(userId);
         return user.getPosts();
+    }
+
+    @Override
+    public Post createPost(int userId, Post post){
+        User user=findById(userId);
+        Post newPost=new Post();
+        newPost.setDescription(post.getDescription());
+        newPost.setUser(user);
+        return postRepository.save(newPost);
     }
 }

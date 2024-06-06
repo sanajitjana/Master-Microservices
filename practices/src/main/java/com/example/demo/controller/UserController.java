@@ -63,4 +63,10 @@ public class UserController {
     public List<Post> getAllPost(@PathVariable int userId) {
         return userService.getAllPost(userId);
     }
+
+    @PostMapping("/{userId}/posts")
+    public ResponseEntity<Post> createPost(@PathVariable int userId, @RequestBody Post post) {
+        Post res= userService.createPost(userId, post);
+        return new ResponseEntity<Post>(res, HttpStatus.CREATED);
+    }
 }

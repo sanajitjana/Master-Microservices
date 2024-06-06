@@ -20,4 +20,6 @@ public interface UserService {
     public User deleteUser(int id);
 
     public List<Post> getAllPost(int userId);
+
+    public Post createPost(int userId, Post post);
 }
