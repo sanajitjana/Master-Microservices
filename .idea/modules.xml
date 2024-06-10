@@ -4,7 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Master-Microservices-Udemy.iml" filepath="$PROJECT_DIR$/.idea/Master-Microservices-Udemy.iml" />
       <module fileurl="file://$PROJECT_DIR$/practices/demo.iml" filepath="$PROJECT_DIR$/practices/demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/limit-service/limit-service.iml" filepath="$PROJECT_DIR$/limit-service/limit-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/limits-service/limit-service.iml" filepath="$PROJECT_DIR$/limits-service/limit-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" filepath="$PROJECT_DIR$/spring-cloud-config-server/spring-cloud-config-server.iml" />
     </modules>
   </component>
