@@ -4,55 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89f61d32-4077-4275-9498-6b3659192d6b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_2_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_16_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_i2p_crypto_eddsa_0_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_14.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sshd_sshd_osgi_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_sshd_sshd_sftp_2_10_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_6_6_1_202309021850_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_6_6_1_202309021850_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_ssh_apache_6_6_1_202309021850_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_validator_hibernate_validator_8_0_1_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_2_0_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_validation_3_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_4_1_2.xml" afterDir="false" />
+    <list default="true" id="889f54db-2793-4b6e-a3f5-963a71279274" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/CurrencyExchangeServiceApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/test/java/com/sanajitjana/microservices/currency_exchange_service/CurrencyExchangeServiceApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service-dev.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service-qa.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/microservice-x-dev.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/microservice-x-qa.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/microservice-x.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/git-localconfig-repo/microservice-y.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/limits-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/git-localconfig-repo" beforeDir="false" afterPath="$PROJECT_DIR$/git-localconfig-repo" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/git-localconfig-repo/limits-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/mvnw" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/mvnw" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/mvnw.cmd" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/mvnw.cmd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/src/main/java/com/sanajitjana/microservices/limit_service/LimitServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/sanajitjana/microservices/limitservice/LimitServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/src/main/java/com/sanajitjana/microservices/limit_service/config/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/sanajitjana/microservices/limitservice/config/Configuration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/src/main/java/com/sanajitjana/microservices/limit_service/controller/LimitsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/sanajitjana/microservices/limitservice/controller/LimitsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/src/main/java/com/sanajitjana/microservices/limit_service/model/Limits.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/java/com/sanajitjana/microservices/limitservice/model/Limits.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/limit-service/src/test/java/com/sanajitjana/microservices/limit_service/LimitServiceApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/test/java/com/sanajitjana/microservices/limitservice/LimitServiceApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/limits-service.properties" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -67,7 +46,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2hgIZy7cJ7JCi0tItxB68j0N29W" />
+  <component name="ProjectId" id="2hgizDmYtaa2HYLBjAPfD2FRfM9" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -75,49 +54,49 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Sanajit-WorkSpace/IntelliJ-Workspace/Master-Microservices-Udemy/git-localconfig-repo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Sanajit-WorkSpace\IntelliJ-Workspace\Master-Microservices-Udemy\git-localconfig-repo" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.LimitsService">
-    <configuration name="ConfigServer" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.spring_cloud_config_server.SpringCloudConfigServerApplication" />
-      <module name="spring-cloud-config-server" />
+}]]></component>
+  <component name="RunManager" selected="Application.CurrencyExchangeServiceApplication">
+    <configuration name="CurrencyExchangeServiceApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.currency_exchange_service.CurrencyExchangeServiceApplication" />
+      <module name="currency-exchange-service" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LimitsService" type="Application" factoryName="Application">
+    <configuration name="LimitServiceApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.limitservice.LimitServiceApplication" />
       <module name="limit-service" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="SpringCloudConfigServerApplication" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.spring_cloud_config_server.SpringCloudConfigServerApplication" />
+      <module name="spring-cloud-config-server" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.LimitsService" />
-      <item itemvalue="Application.ConfigServer" />
+      <item itemvalue="Application.SpringCloudConfigServerApplication" />
+      <item itemvalue="Application.CurrencyExchangeServiceApplication" />
+      <item itemvalue="Application.LimitServiceApplication" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="89f61d32-4077-4275-9498-6b3659192d6b" name="Changes" comment="" />
-      <created>1718009352851</created>
+      <changelist id="889f54db-2793-4b6e-a3f5-963a71279274" name="Changes" comment="" />
+      <created>1718022388045</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718009352851</updated>
+      <updated>1718022388045</updated>
     </task>
     <servers />
   </component>
