@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="889f54db-2793-4b6e-a3f5-963a71279274" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/repository/CurrencyExchangeRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-exchange-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/model/CurrencyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/model/CurrencyExchange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/controller/CurrencyExchangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/controller/CurrencyExchangeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
