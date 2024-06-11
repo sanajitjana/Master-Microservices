@@ -1,9 +1,0 @@
-<component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="CurrencyExchange8000" type="Application" factoryName="Application" singleton="false">
-    <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.currency_exchange_service.CurrencyExchangeServiceApplication" />
-    <module name="currency-exchange-service" />
-    <method v="2">
-      <option name="Make" enabled="true" />
-    </method>
-  </configuration>
-</component>
