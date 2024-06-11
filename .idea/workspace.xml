@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="889f54db-2793-4b6e-a3f5-963a71279274" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/CurrencyExchange8000.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/controller/CurrencyExchangeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/model/CurrencyExchange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-exchange-service/urls.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service-qa.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/microservice-x-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/microservice-x-qa.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/microservice-x.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/git-localconfig-repo/microservice-y.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-exchange-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/model/CurrencyExchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/model/CurrencyExchange.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/git-localconfig-repo/limits-service.properties" beforeDir="false" afterPath="$PROJECT_DIR$/git-localconfig-repo/limits-service.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/practices/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/data.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="2hgizDmYtaa2HYLBjAPfD2FRfM9" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -64,7 +54,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -72,7 +62,14 @@
       <recent name="com.sanajitjana.microservices.currency_exchange_service.model" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CurrencyExchange">
+    <configuration name="CurrencyExchange" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.currency_exchange_service.CurrencyExchangeServiceApplication" />
+      <module name="currency-exchange-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LimitServiceApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.limitservice.LimitServiceApplication" />
       <module name="limit-service" />
@@ -88,6 +85,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CurrencyExchange" />
       <item itemvalue="Application.SpringCloudConfigServerApplication" />
       <item itemvalue="Application.LimitServiceApplication" />
       <item itemvalue="Application.CurrencyExchange8000" />
@@ -106,5 +104,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/git-localconfig-repo" />
+    </ignored-roots>
   </component>
 </project>

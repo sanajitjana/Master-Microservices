@@ -1,12 +1,12 @@
 --Enter Currency Exchange Data
 insert into currency_exchange
-(id,currency_from,currency_to, conversion_multiple, environment)
-values(1001, 'USD', 'INR',82, '');
+(id, currency_from, currency_to, conversion_multiple, environment)
+values(10001, 'USD', 'INR', 82, '');
 
 insert into currency_exchange
-(id,currency_from,currency_to, conversion_multiple, environment)
-values(1002, 'EUR', 'INR',75, '');
+(id, currency_from, currency_to, conversion_multiple, environment)
+values(10002, 'EUR', 'INR', 75, '');
 
 insert into currency_exchange
-(id,currency_from,currency_to, conversion_multiple, environment)
-values(1002, 'AUD', 'INR',65, '');
+(id, currency_from, currency_to, conversion_multiple, environment)
+values(10003, 'AUD', 'INR', 65, '');
