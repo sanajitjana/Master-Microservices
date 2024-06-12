@@ -4,29 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d801bce-6482-41a0-8ab0-5f635e4cd73c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/controller/CurrencyConversionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/model/CurrencyConversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/currency-conversion-service/urls.txt" afterDir="false" />
+    <list default="true" id="cf04b37f-3646-460e-84e6-beaaf7e0939e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_11_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_core_13_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_feign_slf4j_13_2_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_github_openfeign_form_feign_form_spring_3_8_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_openfeign_core_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_openfeign_4_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/proxy/CurrencyExchangeProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naming-server/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naming-server/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naming-server/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naming-server/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naming-server/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naming-server/src/main/java/com/microservices/naming_server/NamingServerApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naming-server/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/naming-server/src/test/java/com/microservices/naming_server/NamingServerApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-conversion-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-exchange-service/urls.txt" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/urls.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/CurrencyConversionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/CurrencyConversionServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/controller/CurrencyConversionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/controller/CurrencyConversionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CompilerWorkspaceConfiguration">
-    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
@@ -41,10 +50,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2hjW7dryqZh1MKjwZu8cTbahpi7" />
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectId" id="2hlaXbWUpaDuFt8IDh95fZKLMGL" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,63 +58,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/Sanajit-WorkSpace/IntelliJ-Workspace/Master-Microservices-Udemy/currency-conversion-service",
-    "settings.editor.selected.configurable": "advanced.settings"
+    "RunOnceActivity.ShowReadmeOnStart": "true"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.sanajitjana.microservices.currency_conversion_service.model" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Sanajit-WorkSpace\IntelliJ-Workspace\Master-Microservices-Udemy\currency-conversion-service" />
-    </key>
-  </component>
-  <component name="RunManager" selected="Application.CurrencyConversion">
-    <configuration name="ConfigServer" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.spring_cloud_config_server.SpringCloudConfigServerApplication" />
-      <module name="spring-cloud-config-server" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CurrencyConversion" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.currency_conversion_service.CurrencyConversionServiceApplication" />
-      <module name="currency-conversion-service" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CurrencyExchange" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.currency_exchange_service.CurrencyExchangeServiceApplication" />
-      <module name="currency-exchange-service" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LimitService" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.limitservice.LimitServiceApplication" />
-      <module name="limit-service" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.ConfigServer" />
-      <item itemvalue="Application.LimitService" />
-      <item itemvalue="Application.CurrencyExchange" />
-      <item itemvalue="Application.CurrencyConversion" />
-    </list>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0d801bce-6482-41a0-8ab0-5f635e4cd73c" name="Changes" comment="" />
-      <created>1718107800167</created>
+      <changelist id="cf04b37f-3646-460e-84e6-beaaf7e0939e" name="Changes" comment="" />
+      <created>1718171166122</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1718107800167</updated>
+      <updated>1718171166122</updated>
     </task>
     <servers />
   </component>
