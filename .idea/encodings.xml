@@ -9,8 +9,8 @@
     <file url="file://$PROJECT_DIR$/limits-service/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/naming-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/naming-server/src/main/resources" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/practices/src/main/java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/practices/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rest-api-practices/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/rest-api-practices/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/spring-cloud-config-server/src/main/resources" charset="UTF-8" />
   </component>
