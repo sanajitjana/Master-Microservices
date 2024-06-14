@@ -14,20 +14,20 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 
 @RestController
-@RequestMapping("/currency")
+@RequestMapping("/service2")
 public class CurrencyConversionController {
 
     @Autowired
     private CurrencyExchangeProxy currencyExchangeProxy;
 
-    @GetMapping("/conversion/from/{from}/to/{to}/quantity/{quantity}")
+    @GetMapping("/currency-conversion/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion convert(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
 
         HashMap<String, String> payload = new HashMap<>();
         payload.put("from", from);
         payload.put("to", to);
 
-        ResponseEntity<CurrencyConversion> responseEntity = new RestTemplate().getForEntity("http://localhost:8000/currency-exchange/from/{from}/to/{to}", CurrencyConversion.class, payload);
+        ResponseEntity<CurrencyConversion> responseEntity = new RestTemplate().getForEntity("http://localhost:8000//service1/currency-exchange/from/{from}/to/{to}", CurrencyConversion.class, payload);
         CurrencyConversion currencyConversion = responseEntity.getBody();
 
         return new CurrencyConversion(
@@ -39,7 +39,7 @@ public class CurrencyConversionController {
         );
     }
 
-    @GetMapping("/conversion-feign/from/{from}/to/{to}/quantity/{quantity}")
+    @GetMapping("/currency-conversion-feign/from/{from}/to/{to}/quantity/{quantity}")
     public CurrencyConversion convertUsingFeign(@PathVariable String from, @PathVariable String to, @PathVariable BigDecimal quantity) {
 
         CurrencyConversion currencyConversion = currencyExchangeProxy.getExchangeValue(from, to);

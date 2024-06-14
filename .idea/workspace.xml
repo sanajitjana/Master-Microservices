@@ -4,26 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cf04b37f-3646-460e-84e6-beaaf7e0939e" name="Changes" comment="">
+    <list default="true" id="cf04b37f-3646-460e-84e6-beaaf7e0939e" name="Changes" comment="remove api-gateway">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api_gateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/microservices/api_gateway/ApiGatewayApplicationTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_mvc_4_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_mvc_4_1_4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api_gateway/ApiGatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/test/java/com/microservices/api_gateway/ApiGatewayApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/CurrencyConversionServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/CurrencyConversionServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/controller/CurrencyConversionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/controller/CurrencyConversionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/proxy/CurrencyExchangeProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/java/com/sanajitjana/microservices/currency_conversion_service/proxy/CurrencyExchangeProxy.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-conversion-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/CurrencyExchangeServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/CurrencyExchangeServiceApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/controller/CurrencyExchangeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/controller/CurrencyExchangeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limits-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/limits-service/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/naming-server/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/naming-server/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rest-api-practices/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/rest-api-practices/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,15 +43,27 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sanajitjana&quot;
+  }
+}</component>
   <component name="GitToolBoxStore">
     <option name="projectConfigVersion" value="5" />
   </component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sanajitjana/Master-Microservices-Udemy.git&quot;,
+    &quot;accountId&quot;: &quot;b159332b-d1b6-4e7f-af63-6d0f510d6440&quot;
+  }
+}</component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2hlaXbWUpaDuFt8IDh95fZKLMGL" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -63,6 +75,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.ApiGateway.executor": "Run",
+    "Application.CurrencyConversion.executor": "Run",
+    "Application.CurrencyExchange.executor": "Run",
+    "Application.NamingServer.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -70,7 +86,7 @@
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Sanajit-WorkSpace/IntelliJ-Workspace/start.spring.io",
-    "settings.editor.selected.configurable": "project.propCompiler"
+    "settings.editor.selected.configurable": "advanced.settings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -78,7 +94,7 @@
       <recent name="D:\Sanajit-WorkSpace\IntelliJ-Workspace\Master-Microservices-Udemy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CurrencyExchange">
+  <component name="RunManager" selected="Application.CurrencyExchange8001">
     <configuration name="ApiGateway" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.microservices.api_gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
@@ -100,6 +116,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CurrencyExchange8001" type="Application" factoryName="Application">
+      <envs>
+        <env name="server.port" value="8001" />
+      </envs>
+      <option name="MAIN_CLASS_NAME" value="com.sanajitjana.microservices.currency_exchange_service.CurrencyExchangeServiceApplication" />
+      <module name="currency-exchange-service" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="NamingServer" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.microservices.naming_server.NamingServerApplication" />
       <module name="naming-server" />
@@ -108,6 +134,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.CurrencyExchange8001" />
       <item itemvalue="Application.CurrencyExchange" />
       <item itemvalue="Application.ApiGateway" />
       <item itemvalue="Application.CurrencyConversion" />
@@ -123,9 +150,20 @@
       <option name="presentableId" value="Default" />
       <updated>1718171166122</updated>
     </task>
+    <task id="LOCAL-00001" summary="remove api-gateway">
+      <option name="closed" value="true" />
+      <created>1718341335222</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718341335222</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="remove api-gateway" />
+    <option name="LAST_COMMIT_MESSAGE" value="remove api-gateway" />
   </component>
 </project>
