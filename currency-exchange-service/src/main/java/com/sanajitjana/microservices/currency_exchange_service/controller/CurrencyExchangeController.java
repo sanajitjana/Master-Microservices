@@ -6,9 +6,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.core.env.Environment;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
+@RequestMapping("/currency")
 public class CurrencyExchangeController {
 
     @Autowired
@@ -17,7 +19,7 @@ public class CurrencyExchangeController {
     @Autowired
     private Environment environment;
 
-    @GetMapping("/currency-exchange/from/{from}/to/{to}")
+    @GetMapping("/exchange/from/{from}/to/{to}")
     public CurrencyExchange getCurrencyExchangeValue(@PathVariable String from, @PathVariable String to) throws Exception {
 
         CurrencyExchange currencyExchange=currencyExchangeRepository.findByFromAndTo(from, to);
