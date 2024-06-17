@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cf04b37f-3646-460e-84e6-beaaf7e0939e" name="Changes" comment="remove api-gateway">
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api_gateway/ApiGatewayConfiguration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/microservices/api_gateway/LoggingFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/currency-exchange-service/src/main/java/com/sanajitjana/microservices/currency_exchange_service/controller/CircuitBreakerController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency-exchange-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/currency-exchange-service/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +79,7 @@
       <recent name="D:\Sanajit-WorkSpace\IntelliJ-Workspace\Master-Microservices-Udemy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CurrencyExchange8001">
+  <component name="RunManager" selected="Application.CurrencyExchange">
     <configuration name="ApiGateway" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.microservices.api_gateway.ApiGatewayApplication" />
       <module name="api-gateway" />
